@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Smart Healthcare Monitoring using IoT}
+\author{Summary by Ramya Sundaram , reg no 21011101097}
+
+\maketitle
+
+\section{SUMMARY}
+In this paper,the authors ,Shubham Banka ,Isha Madan and S.S. Saranya have presented and proved the prototype for
+an automatic system that guarantees a constant monitoring of
+various health parameters and prediction of any kind of
+disease or disorder that prevents the patient from the pain of
+paying frequent visits or travelling to the hospitals themselves.
+ \\The system discussed here consists of
+various medical devices such as sensors and web based or
+mobile based applications which communicate via network
+connected devices and helps to monitor and record patients's
+health data and medical information.
+This paper demonstrates a Remote Health Monitoring System
+controlled by Raspberry pi. \\ In this paper, a system is designed to
+continuously monitor the vital parameters such as heart rate,
+blood pressure and body temperature. The information is
+stored on a cloud server database and can be displayed
+through an online website or mobile application by authorized
+personnel only. The main objective of this system is to update
+the data online and send an alert to the doctors for any
+abnormality and also predict if the patient is having any
+disease. \\Health Monitoring Section module comprises of the hardware components of the
+system that makes it IoT enabled and is used to record the
+health parameters of the patient using various sensors. Here,
+Raspberry pi acts as a central server to which all the sensors
+are connected through the GPIO pins or using MCP3008
+analog-to-digital convertor if their output is in the analog form
+as raspberry pi works only on digital signals.\\Emergency Alert Section module in particularly deals with the steps to be taken
+after an abnormality is detected in the health of patient such as
+notifying his/her family member as well as the hospital. \\ARCHITECTURE: \\they propose an automatic system to monitor
+patient’s body temperature, heart rate, body movements and
+blood pressure. Further they extend the existing system to
+predict if the patient is suffering from any chronic disorder or
+disease using the various health parameter and various other
+symptoms that are obtained by the system. \LARGE 
+
+\section{Main objective or aim of the authors:}
+To obtain the real-time medical information about a
+patient via IoT,processing and classification of information gathered
+about the patient,to interpret and predict any disease or disorder in
+preliminary stage itself using the data mining
+techniques that will also provide the approach
+advantageous for decision making,to provide Internet of Things based healthcare
+solutions at anytime and anywhere. \LARGE
+
+\section{MY UNDERSTANDINGS AND VIEWS ON THE PAPER:}
+I feel that the system described in this paper is of extreme use to patients and doctors as well. The patient
+can check their health status anytime from the comfort of their
+homes and visit hospitals only when they really need to.\\I feel that the Health Status Prediction System  is one of the most promising modules of the system.The system shows the almost
+real time values of various health parameters and emulates
+how the same can be implemented in the real world and the
+doctors can also use the log of the patient body condition to
+study and determine the effect of medicine or other such
+things.The smart prediction module predicts the disease that the
+patient is suffering from by asking them for various symptoms
+they may have and the options are based on the previous
+symptom.  \LARGE
+
+\section{Agreements,Suggestions:}
+I agree that the  MCP3008 chip is a great option if one needs to read
+simple analog signals, like from a temperature or light sensor.
+I agree that the Health Status Prediction System  is one of the most promising modules of the system.The system can be further improved further by adding
+artificial intelligence system components to facilitate the
+doctors and the patients.
+
+\end{document}
